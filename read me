@@ -1,0 +1,11 @@
+
+ls - is to check directories
+
+cd folderName :- to change the directory 
+
+rm filename :- to remove the file
+
+tsc --noEmitOnError filename.ts :- this will not generate the .js file if we got the any compilation error in the typescript file
+
+tsc --target ES5 :- for get and set acessor
+

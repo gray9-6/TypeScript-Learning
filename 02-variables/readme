@@ -1,0 +1,42 @@
+define Variables:-
+
+    Syntax:-
+        let <VariableName> : <dataType> = <initial value>;
+
+            example :-
+                1. let found : boolean = true;
+                2. let grade : number = 88.6 ;           // can be decimal or can be integer
+                3. let firstName : string = "Ajay";     // can be in double quote
+                4. let lastName : string = 'kumar';     // can be in single quote
+---------------------------------------------------------------------------------------------------------
+any dataType :-
+                5. let mydata : any = 50.0
+
+                // we can assign different values of any type
+
+                mydata = false;
+                mydata = 'Eric';
+                mydata = 19;
+------------------------------------------------------------------------------------------------------------
+
+printing :-
+        console.log(found);
+        console.log("The grade is " + grade);
+        console.log("Hi" + firstName + " " + lastName);
+
+-------------------------------------------------------------------------------------------------------------
+
+Compiling the code :- 
+                compiling the typescript code :- 
+                                                tsc filename.ts  // this will generate the .js file
+                compiling the .js file :- 
+                                        node filename.js    // this will compile the java script file
+--------------------------------------------------------------------------------------------------------------
+
+Template String :- 
+                // concatenation could become clunky for long strings 
+                console.log("Hi" + firstName + " " + lastName);       
+                
+                // so make use of backticks and reference variable with  ${}
+                console.log(`Hi ${  firstName} ${lastName});  // useful for long strings with a lot of concatenation
+                 
